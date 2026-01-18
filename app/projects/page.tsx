@@ -16,7 +16,7 @@ const projects = [
     ],
     live: "https://moneytracker-project.vercel.app/",
     github: "https://github.com/HendraSiswanto/Money-tracker",
-    image: "",
+    image: "/images/moneyTracker.png",
   },
   {
     title: "To Do List App",
@@ -25,7 +25,7 @@ const projects = [
     tech: ["Next.js", "React", "Tailwind", "TypeScript", "Responsive UI"],
     live: "https://hendra-todo.vercel.app/",
     github: "https://github.com/HendraSiswanto/hendra-todo",
-    image: "",
+    image: "/images/toDoList.jpeg",
   },
   {
     title: "Random Workout Generator",
@@ -34,25 +34,25 @@ const projects = [
     tech: ["Firebase", "React", "Chakra UI", "TypeScript", "Responsive UI"],
     live: "https://random-workout-steel.vercel.app/",
     github: "https://github.com/HendraSiswanto/random-workout",
-    image: "",
+    image: "/images/workoutGen.png",
   },
   {
     title: "Game Launcher - Learning Project",
     description:
-      "A learning project that Using a free access api that showing some list of game sorted by genre, data added, platforms, name, relevance, and average rating.",
+      "A learning project that using a free access api that showing some list of game sorted by genre, data added, platforms, name, relevance, and average rating.",
     tech: ["Rest API", "React", "Chakra UI", "TypeScript", "Responsive UI"],
     live: "https://my-game-woad.vercel.app/",
     github: "https://github.com/HendraSiswanto/my-game",
-    image: "",
+    image: "/images/gameList.jpeg",
   },
 ];
 
 export default function ProjectsPage() {
   return (
     <section className="max-w-6xl mx-auto px-6 py-20">
-      <div className="mb-14">
+      <div className="mb-14 flex justify-center flex-col items-center">
         <h1 className="text-4xl font-bold mb-3">Projects</h1>
-        <p className="text-gray-600 max-w-xl">
+        <p className="text-gray-600">
           Selected projects that demonstrate my skills in frontend and
           full-stack development.
         </p>
