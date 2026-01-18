@@ -11,7 +11,7 @@ const navLinks = [
 export default function Navbar() {
   const pathname = usePathname();
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b-[0.5px]">
+    <header className="sticky top-0 z-50 bg-transparent backdrop-blur border-b-[0.5px]">
       <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="font-semibold text-lg tracking-tight">
           Hendra<span className="text-gray-400">.</span>

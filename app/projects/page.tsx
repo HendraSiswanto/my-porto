@@ -13,10 +13,12 @@ const projects = [
       "Supabase",
       "Prisma",
       "Responsive UI",
+      "Postgresql"
     ],
     live: "https://moneytracker-project.vercel.app/",
     github: "https://github.com/HendraSiswanto/Money-tracker",
     image: "/images/moneyTracker.png",
+    featured: true,
   },
   {
     title: "To Do List App",
