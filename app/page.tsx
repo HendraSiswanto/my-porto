@@ -1,5 +1,11 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Home",
+  description:
+    "Frontend developer portfolio of Hendra Siswanto, featuring projects built with React and Next.js.",
+};
 export default function Home() {
   return (
     <main className="max-w-5xl mx-auto px-6">

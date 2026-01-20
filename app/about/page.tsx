@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "Learn more about Hendra Siswanto, a frontend-focused developer building clean and user-friendly web applications.",
+};
+
 export default function AboutPage() {
   return (
     <section className="max-w-4xl mx-auto px-4 py-20">

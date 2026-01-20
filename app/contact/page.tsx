@@ -1,5 +1,11 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Contact",
+  description:
+    "Get in touch with Hendra Siswanto for frontend developer opportunities, internships, or collaborations.",
+};
 export default function ContactPage() {
   return (
     <section className="max-w-4xl mx-auto px-4 py-20">

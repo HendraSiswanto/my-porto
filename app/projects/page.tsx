@@ -1,5 +1,11 @@
 import ProjectCard from "@/components/ProjectCard";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Projects",
+  description:
+    "A selection of frontend and full-stack projects built with Next.js, React, and modern web technologies.",
+};
 const projects = [
   {
     title: "Money Tracker – Full-Stack Finance App",
@@ -13,7 +19,7 @@ const projects = [
       "Supabase",
       "Prisma",
       "Responsive UI",
-      "Postgresql"
+      "Postgresql",
     ],
     live: "https://moneytracker-project.vercel.app/",
     github: "https://github.com/HendraSiswanto/Money-tracker",
