@@ -13,6 +13,7 @@ export default function ContactPage() {
       <div className=" grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-10">
         <div
           className="
+          w-full max-w-sm
             rounded-2xl border border-gray-200 bg-white p-6
             border-l-4 border-l-gray-200
             transition-all duration-300
@@ -31,6 +32,7 @@ export default function ContactPage() {
 
         <div
           className="
+          w-full max-w-sm
             rounded-2xl border border-gray-200 bg-white p-6
             border-l-4 border-l-gray-200
             transition-all duration-300
@@ -50,6 +52,7 @@ export default function ContactPage() {
 
         <div
           className="
+          w-full max-w-sm
             rounded-2xl border border-gray-200 bg-white p-6
             border-l-4 border-l-gray-200
             transition-all duration-300
@@ -71,6 +74,7 @@ export default function ContactPage() {
       <div className="grid gap-6 sm:grid-cols-2 place-items-center">
         <div
           className="
+          w-full max-w-sm
             rounded-2xl border border-gray-200 bg-white p-6
             border-l-4 border-l-gray-200
             transition-all duration-300
@@ -89,6 +93,7 @@ export default function ContactPage() {
         </div>
         <div
           className="
+          w-full max-w-sm
           rounded-2xl border border-gray-200 bg-white p-6
           border-l-4 border-l-gray-200
           transition-all duration-300
