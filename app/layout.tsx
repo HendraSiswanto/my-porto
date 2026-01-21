@@ -21,12 +21,12 @@ export const metadata: Metadata = {
   },
   description:
     "Frontend developer focused on building clean, responsive, and user-friendly web applications using React and Next.js.",
-  metadataBase: new URL("https://your-domain.vercel.app"),
+  metadataBase: new URL("https://hendra-portofolio.vercel.app"),
   openGraph: {
     title: "Hendra Siswanto | Frontend Developer",
     description:
       "Frontend developer portfolio showcasing projects built with React, Next.js, and modern web technologies.",
-    url: "https://your-domain.vercel.app",
+    url: "https://hendra-portfolio.vercel.app",
     siteName: "Hendra Portfolio",
     images: [
       {
