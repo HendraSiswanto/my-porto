@@ -32,7 +32,7 @@ export default function Home() {
               </a>
 
               <a
-                href="/cv.pdf"
+                href="/HendraSiswanto-Resume.pdf"
                 className="shadow-lg px-6 py-3 border border-gray-300 rounded-md hover:bg-gray-100 transition"
               >
                 Download CV
