@@ -2,7 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "Hendra Siswanto - frontend developer",
   description:
     "Frontend developer portfolio of Hendra Siswanto, featuring projects built with React and Next.js.",
 };
